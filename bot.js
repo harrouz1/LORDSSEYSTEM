@@ -223,7 +223,7 @@ ${guild.memberCount} أعضآء السيرفر
 `)
 });
 
-/الفا كودز
+
 client.on('message', message => {
 if (message.content === ("R-uptime")) {
     let uptime = client.uptime;
