@@ -8,7 +8,7 @@ console.log(`
 Login successful.
 
 -----------------
-R-Bot - Discord Bot
+- Discord Bot
 -----------------
 ${client.user.username}
 
@@ -25,7 +25,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=${client.user.id}&permissi
 
 //hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 client.on('ready', () => {
-   client.user.setGame(("R-help"),`تويش حضك`);
+   client.user.setGame(("R-help"),`LORDS SEYSTEM`);
     
 });
 client.on("message", message => {
